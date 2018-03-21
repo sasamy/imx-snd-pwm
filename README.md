@@ -76,10 +76,10 @@ The driver is tested on imx6ull, but it should work on any processor with the sa
 
 This property fixes an error in imx6ull.dtsi
 
-https://community.nxp.com/message/969650
-
 ```
 clocks = <&clks IMX6UL_CLK_PWM7>, <&clks IMX6UL_CLK_PWM7>;
 ```
+
+https://community.nxp.com/message/969650
 
 and in general it is not necessary.
